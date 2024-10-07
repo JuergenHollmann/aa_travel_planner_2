@@ -1,5 +1,5 @@
 import 'dart:developer';
-import 'package:aa_travel_planner/features/buttons/button_go_back_from_trip_details.dart';
+import 'package:aa_travel_planner/features/buttons/button_go_back.dart';
 import 'package:aa_travel_planner/features/favorites/favorites_repository.dart';
 import 'package:aa_travel_planner/features/favorites/favorites_screen.dart';
 import 'package:flutter/material.dart';
@@ -810,7 +810,7 @@ class TripDetailsScreen extends StatelessWidget {
               const SizedBox(height: 8),
               Text(trip.itinerary, style: const TextStyle(fontSize: 16)),
               const SizedBox(height: 16),
-              const ButtonGoBackFromTripDetails(),
+              const ButtonGoBack(),
             ],
           ),
         ),
@@ -862,17 +862,7 @@ class DestinationDetailsScreen extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  ElevatedButton(
-                    onPressed: () {
-                      Navigator.of(context).pop();
-                    },
-                    style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.teal[600]),
-                    child: const Text(
-                      'Go Back',
-                      style: TextStyle(color: Colors.white),
-                    ),
-                  ),
+                  const ButtonGoBack(),
                   ElevatedButton(
                     onPressed: () {
                       favoritesRepository.addFavorite(destination);
