@@ -1,7 +1,7 @@
 import 'dart:developer';
-import 'package:aa_travel_planner/features/buttons/button_go_back.dart';
-import 'package:aa_travel_planner/features/favorites/favorites_repository.dart';
-import 'package:aa_travel_planner/features/favorites/favorites_screen.dart';
+import 'package:aa_travel_planner/features/favorites/repositories/favorites_repository.dart';
+import 'package:aa_travel_planner/features/favorites/widgets/buttons/button_go_back.dart';
+import 'package:aa_travel_planner/features/favorites/screens/favorites_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {

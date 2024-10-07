@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class ButtonGoBack extends StatelessWidget {
   const ButtonGoBack({
     super.key,
