@@ -77,7 +77,9 @@ class FavoritesDetailsScreen extends StatelessWidget {
                     fontSize: 16, height: 1.5, color: Colors.grey[700]),
               ),
               const SizedBox(height: 24),
-              ButtonRemoveFromFavorites(favoritesRepository: favoritesRepository, destination: destination),
+              ButtonRemoveFromFavorites(
+                  favoritesRepository: favoritesRepository,
+                  destination: destination),
             ],
           ),
         ),
