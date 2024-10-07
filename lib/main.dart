@@ -1,8 +1,8 @@
 import 'dart:developer';
 
-import 'package:aa_travel_planner/favorite/favorite_card.dart';
-import 'package:aa_travel_planner/favorite/favorites_repository.dart';
-import 'package:aa_travel_planner/favorite/favorites_screen.dart';
+import 'package:aa_travel_planner/favorites/favorite_card.dart';
+import 'package:aa_travel_planner/favorites/favorites_repository.dart';
+import 'package:aa_travel_planner/favorites/favorites_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
