@@ -1,4 +1,6 @@
+import 'package:aa_travel_planner/features/favorites/favorite_card.dart';
 import 'package:aa_travel_planner/features/favorites/favorites_repository.dart';
+import 'package:aa_travel_planner/main.dart';
 import 'package:flutter/material.dart';
 
 class FavoritesScreen extends StatefulWidget {
@@ -10,7 +12,7 @@ class FavoritesScreen extends StatefulWidget {
   State<FavoritesScreen> createState() => _FavoritesScreenState();
 }
 
-// importieraus main.dart
+// zusätzlich kopiert aus main.dart
 class _FavoritesScreenState extends State<FavoritesScreen> {
   @override
   Widget build(BuildContext context) {

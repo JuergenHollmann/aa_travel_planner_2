@@ -1,6 +1,5 @@
 import 'dart:developer';
 
-import 'package:aa_travel_planner/features/favorites/favorite_card.dart';
 import 'package:aa_travel_planner/features/favorites/favorites_repository.dart';
 import 'package:aa_travel_planner/features/favorites/favorites_screen.dart';
 import 'package:flutter/material.dart';
@@ -660,27 +659,6 @@ class ExploreDestinationsScreen extends StatelessWidget {
     );
   }
 }
-
-// class _FavoritesScreenState extends State<FavoritesScreen> {
-//   @override
-//   Widget build(BuildContext context) {
-//     List<Destination> favorites = widget.favoritesRepository.getFavorites();
-
-//     return ListView.builder(
-//       itemCount: favorites.length,
-//       itemBuilder: (context, index) {
-//         final destination = favorites[index];
-//         return FavoriteCard(
-//           destination: destination,
-//           favoritesRepository: widget.favoritesRepository,
-//           onRemove: () {
-//             setState(() {});
-//           },
-//         );
-//       },
-//     );
-//   }
-// }
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
